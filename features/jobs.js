@@ -13,7 +13,7 @@ const jobs = [
              ]
     },
     {
-        id: 3,
+        id: 2,
         jobTitle: "Advanced Repair Agent -",
         company: "Geek Squad",
         website: "https://www.bestbuy.com/site/electronics/services/pcmcat1528819595254.c?id=pcmcat1528819595254",
@@ -26,7 +26,7 @@ const jobs = [
              ]
     },
     {
-        id: 4,
+        id: 3,
         jobTitle: "Sales Associate -",
         company: "Best Buy",
         website: "https://www.bestbuy.com/",
@@ -38,7 +38,7 @@ const jobs = [
              ]
     },
     {
-        id: 5,
+        id: 4,
         jobTitle: "Product Flow -",
         company: "Best Buy",
         website: "https://www.bestbuy.com/",
