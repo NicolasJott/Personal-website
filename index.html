@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+    
+    <title>Nicolas Ott</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo fade-enter">
+                Nicolas Ott
+            </div>
+            <div class="links">
+                <ol id="links">
+                    <li class="fadedown-enter">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="fadedown-enter" >
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li class="fadedown-enter" >
+                        <a href="#work">Work</a>
+                    </li>
+                    <li class="fadedown-enter"> 
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ol>
+                <div class="resume fadedown-enter">
+                    <a class="resume-btn" href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+                </div>
+                             
+            </div>
+            <div class="menu">
+                <div>
+                    <button class="nav-button"><i class="fas fa-bars"></i></button>
+                    <aside class="sidebar">
+                        <nav>
+                            <ol>
+                                <li>
+                                    <a id="abtBtn" href="#about">About</a>
+                                </li>
+                                <li >
+                                    <a id="expBtn" href="#experience">Experience</a>
+                                </li>
+                                <li>
+                                    <a id="workBtn" href="#work">Work</a>
+                                </li>
+                                <li> 
+                                    <a id="contactBtn" href="#contact">Contact</a>
+                                </li>
+                            </ol>
+                            <div class="resume ">
+                                <a class="resume-btn" href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+                            </div>
+                        </nav>
+                    </aside>
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+    <div id="content">
+        <main class="pages fillHeight">
+            <section class="landing" id="landing">
+                <div class="fadeup-enter">
+                    <h1>Hello, my name is </h1>
+                </div>
+                <div class="fadeup-enter">
+                    <h2 class="big-heading">Nicolas Ott.</h2>
+                </div>
+                <div class="fadeup-enter">
+                    <h3 class="big-heading">I am Software Engineer</h3>
+                </div>
+                <div class="fadeup-enter">
+                    <p>I am a software engineer currently specializing in building and designing web interfaces.
+                        I am currently focused on technologies such as React.js, HTML5, and CSS3
+                    </p>
+                </div>
+                <div class="social-list fadeup-enter">
+                    <ul class="social-links">
+                        <li><a href="https://github.com/NicolasJott" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://github.com/NicolasJott" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://github.com/NicolasJott" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/nicolas-ott-892317226/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+                <div class="big-resume fadeup-enter">
+                    <a class="resume-btn" href="resume.pdf" target="_blank" rel="noopener noreferrer">View my Resume</a>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <h2 class="numbered-heading">About Me</h2>
+                <div class="inner">
+                    <div>
+                        <div>
+                            <p>
+                                Greetings! My name is Nicolas, and I possess a strong passion for the development of web applications and the satisfaction that comes with witnessing their successful deployment. My inclination towards software engineering has been fostered by my father, 
+                                who is an accomplished full stack engineer. Witnessing the innovative projects he created during my formative years instilled in me an unwavering interest in pursuing a similar career path.
+                            </p>
+                            <p>
+                                Currently, I am a second-year student at Youngstown State University, working towards a Bachelor of Science degree in Computer Science. With an expected graduation date of May 2025, I am eager to leverage my educational background, practical skills, and 
+                                natural curiosity towards making meaningful contributions to the software engineering industry and humanity as a whole.
+                            </p>
+                            <p>
+                                I currently work at YSU on the web team as a student software engineer. I manage the <a href="https://ysu.edu/" target="_blank" rel="noopener noreferrer">Youngstown State University Website</a>. 
+                            </p>
+                            <p>
+                                Here are a few of the skills and technologies I have been working with in the recent months:
+                            </p>
+                        </div>
+                        <ul class="skills-list">
+                            <li>JavaScript</li>
+                            <li>React.js</li>
+                            <li>Node.js</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Drupal</li>
+                        </ul>
+                    </div>
+                    <div class="picture">
+                        <div class="wrapper">
+                            <img src="images/IMG_3678.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="experience" id="experience">
+                <h2 class="numbered-heading">Work Experience</h2>
+                <div class="inner">
+                    <div id="tablist" class="tablist">
+                    </div>
+                    <div class="jobs">
+                        <div id="job-panel" class="panels">
+                            <h3 class="job-wrapper">
+                                <span id="job-title"></span>
+                                <span class="company">
+                                    <a id="company" target="_blank" rel="noopener noreferrer"></a>
+                                </span>
+                            </h3>
+                            <p id="date-range" class="date-range"></p>
+                            <div>
+                                <ul id="info">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="work" id="work">
+                <h2 class="numbered-heading">My Projects</h2>
+                <div class="inner">
+                    <div id="project-list" class="project-list">
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <h2 class="numbered-heading">Contact Me</h2>
+                <div class="inner">
+                    <div class="contact-box">
+                        <p>I am actively seeking an internship with the intent to scale into a higher role wherever I feel welcome.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>Built and designed by Nicolas Ott</p>
+            <p id="year"></p>
+        </footer>
+    </div>
+    <script src="features/index.js"></script>
+    <script src="features/jobs.js"></script>
+    <script src="features/projects.js"></script>
+</body>
+</html>
