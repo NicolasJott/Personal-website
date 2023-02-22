@@ -13,18 +13,6 @@ const jobs = [
              ]
     },
     {
-        id: 2,
-        jobTitle: "Software Developer -",
-        company: "Six Pack Fishing",
-        website: "https://www.sixpackfishing.co/signup",
-        range: "December 2022 - Present",
-        text: [ 
-            "I successfully developed and implemented a feature utilizing the Twilio API, which enabled efficient communication with customers regarding their upcoming trips. Moreover, this solution facilitated the prompt notification of customers regarding payment requirements.",
-            "I contributed to the front-end design of both the admin dashboard and signup form, demonstrating my prowess in the field of user interface design.",
-            "In order to execute these projects, I have garnered considerable expertise in the Angular framework, Node, and AWS.",
-             ]
-    },
-    {
         id: 3,
         jobTitle: "Advanced Repair Agent -",
         company: "Geek Squad",
