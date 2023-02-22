@@ -44,7 +44,7 @@
         padding: 0px 50px
     }
 
-    .menu button {
+    .nav-button {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -56,13 +56,11 @@
         background: transparent;
         color: var(--red);
         cursor: pointer;
-        
     }
 
-    .menu button:hover {
+    .rotate{
         transform: rotate(90deg);
     }
-
 
 
     .social-list::after {

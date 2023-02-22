@@ -141,6 +141,7 @@ const sidebar = document.querySelector('.sidebar')
 
 navBtn.addEventListener('click', function() {
   sidebar.classList.toggle('show-sidebar')
+  navBtn.classList.toggle('rotate')
   content.classList.toggle('blur')
 })
 
@@ -148,12 +149,14 @@ navBtn.addEventListener('click', function() {
 const aboutBtn = document.getElementById('abtBtn')
 aboutBtn.addEventListener('click', function() {
   sidebar.classList.remove('show-sidebar')
+  navBtn.classList.remove('rotate')
   content.classList.remove('blur')
 })
 
 const experienceBtn = document.getElementById('expBtn')
 experienceBtn.addEventListener('click', function() {
   sidebar.classList.remove('show-sidebar')
+  navBtn.classList.remove('rotate')
   content.classList.remove('blur')
 })
 
@@ -161,10 +164,14 @@ const workBtn = document.getElementById('workBtn')
 workBtn.addEventListener('click', function() {
   sidebar.classList.remove('show-sidebar')
   content.classList.remove('blur')
+  navBtn.classList.remove('rotate')
+
 })
 
 const contactBtn = document.getElementById('contactBtn')
 contactBtn.addEventListener('click', function() {
   sidebar.classList.remove('show-sidebar')
   content.classList.remove('blur')
+  navBtn.classList.remove('rotate')
+
 })
