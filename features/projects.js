@@ -31,12 +31,14 @@ window.addEventListener('DOMContentLoaded', function() {
         let h3 = document.createElement('h3');
         let p = document.createElement('p');
         let span = document.createElement('span');
+        const ul = this.document.createElement("ul");
         let innerDiv = document.createElement('div');
         let topDiv = document.createElement('div');
         let i = document.createElement('i');
         let a = document.createElement('a');
         let img = document.createElement('img');
         img.setAttribute("src", project.img)
+        img.setAttribute("alt", `${project.name} image`)
         
         i.classList.add('fa-brands');
         i.classList.add('fa-github')
@@ -49,8 +51,10 @@ window.addEventListener('DOMContentLoaded', function() {
         project.tech.forEach((tech) => {
             const li = document.createElement("li");
             li.textContent = tech
-            span.appendChild(li);
+            ul.appendChild(li);
         });
+
+        span.appendChild(ul);
     
         topDiv.appendChild(h3);
         topDiv.appendChild(a);

@@ -90,8 +90,10 @@ window.addEventListener('scroll', function() {
   }
 
   if (currentScrollPos <= 100) {
-    header.classList.remove('header-shadow')
+    header.classList.remove('header-shadow');
+    header.classList.remove('fadedown-enter');
   }
+
   
   lastScrollPos = currentScrollPos;
 });

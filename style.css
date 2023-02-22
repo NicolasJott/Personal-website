@@ -671,6 +671,10 @@ p > a {
     padding: 10px;
 }
 
+.project .description span ul {
+    display: flex;
+}
+
 .project img {
     width: 100%;
 }
