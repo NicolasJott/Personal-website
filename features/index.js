@@ -89,7 +89,7 @@ window.addEventListener('scroll', function() {
     header.classList.remove('fadedown-enter');
   }
 
-  if (currentScrollPos <= 100) {
+  if (currentScrollPos <= 50) {
     header.classList.remove('header-shadow');
     header.classList.remove('fadedown-enter');
   }

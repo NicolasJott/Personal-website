@@ -140,7 +140,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: sticky;
     top: 0px;
     z-index: 11;
     transition: var(--transition);
@@ -703,7 +703,10 @@ p > a {
 }
 
 .contact {
+    display: flex;
+    flex-direction: column;
     max-width: 700px;
+    align-items: center;
 }
 
 .contact .inner {
@@ -755,4 +758,10 @@ p > a {
 .footer p {
     font: 12px;
     color: #a0a0a0;
+}
+
+.contact .big-resume {
+    display: block;
+    margin-top: 100px;
+    align-self: center;
 }
