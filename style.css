@@ -517,6 +517,7 @@ p > a {
 
 .experience .inner {
     display: flex;
+    height: 100%;
 
 }
 

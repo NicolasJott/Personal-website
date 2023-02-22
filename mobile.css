@@ -182,6 +182,9 @@
         margin: 0;
     }
 
+    .experience {
+        max-height: 1200px;
+    }
     .project-list {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
