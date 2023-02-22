@@ -15,7 +15,7 @@ const projects = [
 
         github: "https://github.com/NicolasJott/ClashofClansJavaWrapper",
         description: "A read-only wrapper for the Clash of Clans API",
-        tech: ["Java", "restApi", "blah"],
+        tech: ["Java", "restApi",],
     },
 
 ]
