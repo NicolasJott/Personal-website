@@ -51,7 +51,7 @@
         position: relative;
         z-index: 10;
         margin-right: -15px;
-        font-size: 32px;
+        font-size: 35px;
         transition: var(--transition);
         background: transparent;
         color: var(--red);

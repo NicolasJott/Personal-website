@@ -163,6 +163,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    text-align: center;
     counter-reset: item 0;
     width: 100%;
     color: #cecece;
@@ -178,13 +179,27 @@ a {
     transition: var(--transition);
 }
 
+.menu div {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
 
 nav .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--red)
 }
+
+nav .logo h1 {
+    color: var(--red);
+    margin: 0;
+    line-height: 1;
+}
+
+
 
 .links {
     display: flex;
@@ -240,6 +255,10 @@ li {
     cursor: pointer;
     margin-left: 15px;
     font-size: 13px;
+}
+
+.resume-btn i {
+    padding-right: 15px;
 }
 
 .resume-btn:hover {
@@ -765,3 +784,4 @@ p > a {
     margin-top: 100px;
     align-self: center;
 }
+
